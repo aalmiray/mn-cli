@@ -23,6 +23,26 @@
         <artifactsDir>target</artifactsDir>
     </properties>
 
+    <name>mn-cli</name>
+    <description>mn-cli - Sample Micronaut CLI application</description>
+    <inceptionYear>2021</inceptionYear>
+    <url>https://github.com/aalmiray/mn-cli</url>
+
+    <developers>
+        <developer>
+            <id>aalmiray</id>
+            <name>Andres Almiray</name>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
     <dependencies>
         <dependency>
             <groupId>io.micronaut</groupId>
