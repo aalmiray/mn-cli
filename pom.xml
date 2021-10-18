@@ -225,7 +225,6 @@
                                         <tagName>{{projectVersion}}</tagName>
                                         <releaseName>{{projectVersion}}</releaseName>
                                         <overwrite>true</overwrite>
-                                        <skipTag>true</skipTag>
                                         <changelog>
                                             <formatted>ALWAYS</formatted>
                                             <format>- {{commitShortHash}} {{commitTitle}}</format>
