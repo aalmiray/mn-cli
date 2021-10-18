@@ -302,19 +302,19 @@
                                             </hide>
                                             <replacers>
                                                 <replacer>
-                                                    <search>fix:</search>
+                                                    <search>fix:\s</search>
                                                 </replacer>
                                                 <replacer>
-                                                    <search>feat:</search>
+                                                    <search>feat:\s</search>
                                                 </replacer>
                                                 <replacer>
-                                                    <search>chore:</search>
+                                                    <search>chore:\s</search>
                                                 </replacer>
                                                 <replacer>
-                                                    <search>build:</search>
+                                                    <search>build:\s</search>
                                                 </replacer>
                                                 <replacer>
-                                                    <search>deps:</search>
+                                                    <search>deps:\s</search>
                                                 </replacer>
                                             </replacers>
                                         </changelog>
