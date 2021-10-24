@@ -20,7 +20,7 @@
         <micronaut.version>3.1.0</micronaut.version>
         <exec.mainClass>com.example.Main</exec.mainClass>
         <executable-suffix/>
-        <artifactsDir>target</artifactsDir>
+        <artifactsDir>target/distributions</artifactsDir>
     </properties>
 
     <name>mn-cli</name>
@@ -144,8 +144,8 @@
                 <configuration>
                     <attach>false</attach>
                     <appendAssemblyId>false</appendAssemblyId>
-                    <finalName>mn-cli-${project.version}-${os.detected.classifier}</finalName>
-                    <outputDirectory>${app.distribution.directory}</outputDirectory>
+                    <finalName>${project.artifactId}-${project.version}-${os.detected.classifier}</finalName>
+                    <outputDirectory>${project.build.directory}/distributions</outputDirectory>
                     <workDirectory>${project.build.directory}/assembly/work</workDirectory>
                     <skipAssembly>true</skipAssembly>
                 </configuration>
